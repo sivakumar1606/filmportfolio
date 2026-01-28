@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Filmmaking Portfolio</title>
+    <meta
+      name="description"
+      content="Filmmaking portfolio – short films, music videos, and reel edits."
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div class="page">
+      <header class="nav">
+        <div class="logo">
+          <span>Film</span> Portfolio
+        </div>
+        <nav class="nav-links">
+          <a href="./short-films.html">Short film works</a>
+          <a href="./music-videos.html">Music videos</a>
+        </nav>
+      </header>
+
+      <main class="hero">
+        <section class="hero-left">
+          <h1 class="name-heading">S Sivakumar</h1>
+          <h3 class="statement">
+            Filmmaking is how I make sense of the world. I'm drawn to the raw, unfiltered emotions in human
+            relationships—the moments that define us. Every frame I create is an attempt to capture what words can't
+            express and to spark conversations that linger long after the screen fades to black.
+          </h3>
+
+          <section class="nav-cta" aria-label="Navigate to work sections">
+            <h2 class="nav-cta-title">Explore the work</h2>
+            <div class="nav-grid">
+              <a class="nav-card" href="./short-films.html">
+                <div>
+                  <div class="nav-card-label">Short film works</div>
+  
+                </div>
+                <div class="nav-card-arrow">&#10140;</div>
+                <div class="nav-card-glow" aria-hidden="true"></div>
+              </a>
+
+              <a class="nav-card" href="./music-videos.html">
+                <div>
+                  <div class="nav-card-label">Music videos</div>
+           
+                </div>
+                <div class="nav-card-arrow">&#10140;</div>
+                <div class="nav-card-glow" aria-hidden="true"></div>
+              </a>
+            </div>
+          </section>
+        </section>
+      </main>
+
+      <footer class="footer">
+        © <span id="year"></span> Filmmaking portfolio. All works © their respective collaborators.
+      </footer>
+    </div>
+
+    <script>
+      // Keep the footer year up to date
+      document.getElementById("year").textContent = new Date().getFullYear();
+    </script>
+  </body>
+</html>
+

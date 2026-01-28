@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Short Film Works · Filmmaking Portfolio</title>
+    <meta
+      name="description"
+      content="Short film works – intimate stories, character-driven moments, and cinematic experiments."
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div class="page">
+      <header class="nav">
+        <div class="logo">
+          <span>Film</span> Portfolio
+        </div>
+        <nav class="nav-links">
+          <a href="./index.html">Home</a>
+          <a href="./short-films.html">Short film works</a>
+          <a href="./music-videos.html">Music videos</a>
+        </nav>
+      </header>
+
+      <main class="page-main">
+        <header class="page-heading">
+          <p class="page-tag">Short film works</p>
+     
+        </header>
+
+        <section class="page-grid" aria-label="Short film projects">
+          <article class="work-card">
+            <a
+              href="https://youtu.be/0ZtGoLAWDlk?si=UyJKocgGgCR5Mv6f"
+              target="_blank"
+              rel="noopener noreferrer"
+              title="Mounam Pesiyadhe · open on YouTube"
+            >
+              <div class="thumb thumb--photo">
+                <img src="/assets/mounam-pesiyadhe.png" alt="Still from Mounam Pesiyadhe short film" class="thumb-img" />
+                <div class="thumb-play">▶</div>
+              </div>
+            </a>
+            <h2 class="work-title">Mounam Pesiyadhe</h2>
+            <p class="work-meta">
+              Short film · 1 &mdash; YouTube:
+              <a href="https://youtu.be/0ZtGoLAWDlk?si=UyJKocgGgCR5Mv6f" target="_blank" rel="noopener noreferrer">watch here</a>
+            </p>
+          </article>
+
+          <article class="work-card">
+            <a
+              href="https://youtu.be/JnjgryDscsc?si=MimaPn4IE6Fpbsvc"
+              target="_blank"
+              rel="noopener noreferrer"
+              title="D1 · open on YouTube"
+            >
+              <div class="thumb thumb--photo">
+                <img src="/assets/d1.png" alt="Still from D1 short film" class="thumb-img" />
+                <div class="thumb-play">▶</div>
+              </div>
+            </a>
+            <h2 class="work-title">D1</h2>
+            <p class="work-meta">
+              Short film · 2 &mdash; YouTube:
+              <a href="https://youtu.be/JnjgryDscsc?si=MimaPn4IE6Fpbsvc" target="_blank" rel="noopener noreferrer">watch here</a>
+            </p>
+          </article>
+        </section>
+
+        <a class="back-link" href="./index.html">
+          <span>←</span> Back to homepage
+        </a>
+      </main>
+
+      <footer class="footer">
+        © <span id="year"></span> Filmmaking portfolio. All works © their respective collaborators.
+      </footer>
+    </div>
+
+    <script>
+      document.getElementById("year").textContent = new Date().getFullYear();
+    </script>
+  </body>
+</html>
+

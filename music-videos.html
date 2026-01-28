@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Music Videos · Filmmaking Portfolio</title>
+    <meta
+      name="description"
+      content="Music videos – performance-driven, stylized visuals crafted around sound and rhythm."
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div class="page">
+      <header class="nav">
+        <div class="logo">
+          <span>Film</span> Portfolio
+        </div>
+        <nav class="nav-links">
+          <a href="./index.html">Home</a>
+          <a href="./short-films.html">Short film works</a>
+          <a href="./music-videos.html">Music videos</a>
+        </nav>
+      </header>
+
+      <main class="page-main">
+       
+
+        <section class="page-grid" aria-label="Music video projects">
+          <article class="work-card">
+            <a
+              href="https://youtu.be/WCBE72oHLYE?si=d_T5JzATt9LmxAWb"
+              target="_blank"
+              rel="noopener noreferrer"
+              title="Sonaal Dhaan Kaadhala · open on YouTube"
+            >
+              <div class="thumb thumb--photo">
+                <img src="/assets/sonaal-dhaan-kaadhala.png" alt="Still from Sonaal Dhaan Kaadhala music video" class="thumb-img" />
+                <div class="thumb-play">▶</div>
+              </div>
+            </a>
+            <h2 class="work-title">Sonaal Dhaan Kaadhala</h2>
+            <p class="work-meta">
+              Music video · YouTube:
+              <a href="https://youtu.be/WCBE72oHLYE?si=d_T5JzATt9LmxAWb" target="_blank" rel="noopener noreferrer">watch here</a>
+            </p>
+          </article>
+        </section>
+
+        <a class="back-link" href="./index.html">
+          <span>←</span> Back to homepage
+        </a>
+      </main>
+
+      <footer class="footer">
+        © <span id="year"></span> Filmmaking portfolio. All works © their respective collaborators.
+      </footer>
+    </div>
+
+    <script>
+      document.getElementById("year").textContent = new Date().getFullYear();
+    </script>
+  </body>
+</html>
+
